@@ -1,0 +1,20 @@
+{
+  "name": "io-protocols-atlas",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "从 PCIe 请求模型出发，系统讲解高性能硬件 I/O 协议的特性全景",
+  "scripts": {
+    "dev": "vitepress dev site",
+    "build": "vitepress build site",
+    "preview": "vitepress preview site",
+    "validate:mermaid": "node scripts/validate-mermaid.mjs"
+  },
+  "devDependencies": {
+    "jsdom": "^30.1.1",
+    "markdown-it-mathjax3": "^4.3.2",
+    "mermaid": "^11.4.1",
+    "vitepress": "^1.6.3",
+    "vue": "^3.5.13"
+  }
+}
